@@ -22,6 +22,7 @@ private:
 	int sks;
 public:
 	void input() { //method input matakuliah
-	
+		cout << "Kode MK: ";
+		cin >> kodeMk;
 	}
 };
