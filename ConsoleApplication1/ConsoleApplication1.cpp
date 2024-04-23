@@ -17,4 +17,8 @@ public:
 	float hitungLuas() {
 		return panjang * lebar;
 	}
+
+	void display() {
+		cout << "Panjangnya = " << panjang << endl;
+	}
 };
